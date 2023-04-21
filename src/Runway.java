@@ -1,6 +1,7 @@
-public class RunwayName extends Airport{
-    private String runwayID;
-    public RunwayName(String name, String location,String runwayID){
+public class Runway extends Airport{
+    protected String runwayID;
+
+    public Runway(String name, String location, String runwayID){
         super(name, location);
         this.runwayID = runwayID;
     }

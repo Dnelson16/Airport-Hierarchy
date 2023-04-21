@@ -1,4 +1,4 @@
-public class AirportManagment extends Airport{
+public class AirportManagment extends Employee{
     private String employeeType;
     public AirportManagment(String name, String location){
         super(name, location);

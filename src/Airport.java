@@ -1,10 +1,21 @@
 public class Airport {
-    private String name;
-    private String location;
+    protected String name;
+    protected String location;
+
+    public void println() {
+        System.out.println("Dylan Nelson International");
+
+
+    }
 
     public Airport(String name, String location) {
         this.name = name;
         this.location = location;
+    }
+
+    @Override
+    public String toString() {
+        return name +" "+ location;
     }
 
     public String getName() {
@@ -24,5 +35,14 @@ public class Airport {
     public void setLocation(String location) {
 
         this.location = location;
+    }
+
+    public void turnOn() {
+    }
+
+    public void fly() {
+    }
+
+    public void drive() {
     }
 }

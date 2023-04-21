@@ -1,16 +1,19 @@
-public class Flight extends Airport{
-    private int flightNumber;
-    public int a = 300;
+public class Flight extends Airport {
+    String destination = "Argentina";
+    int miles = 5405;
+
+    protected int flightNumber;
+    protected int a = 300;
     public int b = 301;
     public int c = 302;
     private String airlines;
-    public Flight(String name, String location){
+
+    public Flight(String name, String location) {
         super(name, location);
         this.flightNumber = flightNumber;
         this.airlines = airlines;
 
     }
-
     public int getFlightNumber() {
         return flightNumber;
     }
@@ -50,4 +53,5 @@ public class Flight extends Airport{
     public void setC(int c) {
         this.c = c;
     }
+
 }

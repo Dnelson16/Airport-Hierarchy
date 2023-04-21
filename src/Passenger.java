@@ -8,6 +8,11 @@ public class Passenger extends Airport{
 
     }
 
+    @Override
+    public String toString() {
+        return seatNumber + " " + passengerName;
+    }
+
     public int getSeatNumber() {
         return seatNumber;
     }

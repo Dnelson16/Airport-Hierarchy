@@ -9,20 +9,22 @@ public class Pilot extends Employee {
     }
 
     public String getPilotName() {
+
         return pilotName;
     }
 
     public void setPilotName(String pilotName) {
+
         this.pilotName = pilotName;
     }
 
-    @Override
     public String getEmployeeType() {
+
         return employeeType;
     }
 
-    @Override
     public void setEmployeeType(String employeeType) {
+
         this.employeeType = employeeType;
     }
 }
