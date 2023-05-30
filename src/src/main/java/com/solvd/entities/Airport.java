@@ -1,17 +1,17 @@
-public class Airport {
-    protected String name;
-    protected String location;
-
-    public void println() {
-        System.out.println("Dylan Nelson International");
+package com.solvd.entities;
+import com.solvd.Interfaces.IBookable;
 
 
-    }
+
+public class Airport implements IBookable {
+    private String name;
+    private String location;
 
     public Airport(String name, String location) {
         this.name = name;
         this.location = location;
     }
+
 
     @Override
     public String toString() {
@@ -37,12 +37,5 @@ public class Airport {
         this.location = location;
     }
 
-    public void turnOn() {
-    }
 
-    public void fly() {
-    }
-
-    public void drive() {
-    }
 }
